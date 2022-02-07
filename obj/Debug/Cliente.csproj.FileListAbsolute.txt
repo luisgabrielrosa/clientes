@@ -1,0 +1,17 @@
+C:\Users\el_ga\Desktop\SCHAD\clientes\bin\Debug\Cliente.exe.config
+C:\Users\el_ga\Desktop\SCHAD\clientes\bin\Debug\Cliente.exe
+C:\Users\el_ga\Desktop\SCHAD\clientes\bin\Debug\Cliente.pdb
+C:\Users\el_ga\Desktop\SCHAD\clientes\obj\Debug\Cliente.csproj.AssemblyReference.cache
+C:\Users\el_ga\Desktop\SCHAD\clientes\obj\Debug\MainWindow.g.cs
+C:\Users\el_ga\Desktop\SCHAD\clientes\obj\Debug\Vistas\Cliente.g.cs
+C:\Users\el_ga\Desktop\SCHAD\clientes\obj\Debug\App.g.cs
+C:\Users\el_ga\Desktop\SCHAD\clientes\obj\Debug\Cliente_MarkupCompile.cache
+C:\Users\el_ga\Desktop\SCHAD\clientes\obj\Debug\Cliente_MarkupCompile.lref
+C:\Users\el_ga\Desktop\SCHAD\clientes\obj\Debug\MainWindow.baml
+C:\Users\el_ga\Desktop\SCHAD\clientes\obj\Debug\Vistas\Cliente.baml
+C:\Users\el_ga\Desktop\SCHAD\clientes\obj\Debug\Cliente.g.resources
+C:\Users\el_ga\Desktop\SCHAD\clientes\obj\Debug\Cliente.Properties.Resources.resources
+C:\Users\el_ga\Desktop\SCHAD\clientes\obj\Debug\Cliente.csproj.GenerateResource.cache
+C:\Users\el_ga\Desktop\SCHAD\clientes\obj\Debug\Cliente.csproj.CoreCompileInputs.cache
+C:\Users\el_ga\Desktop\SCHAD\clientes\obj\Debug\Cliente.exe
+C:\Users\el_ga\Desktop\SCHAD\clientes\obj\Debug\Cliente.pdb
