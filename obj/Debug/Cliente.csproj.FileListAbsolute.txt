@@ -15,3 +15,10 @@ C:\Users\el_ga\Desktop\SCHAD\clientes\obj\Debug\Cliente.csproj.GenerateResource.
 C:\Users\el_ga\Desktop\SCHAD\clientes\obj\Debug\Cliente.csproj.CoreCompileInputs.cache
 C:\Users\el_ga\Desktop\SCHAD\clientes\obj\Debug\Cliente.exe
 C:\Users\el_ga\Desktop\SCHAD\clientes\obj\Debug\Cliente.pdb
+C:\Users\el_ga\Desktop\SCHAD\clientes\obj\Debug\Cliente.csproj.SuggestedBindingRedirects.cache
+C:\Users\el_ga\Desktop\SCHAD\clientes\obj\Debug\Vistas\FrmCliente.g.cs
+C:\Users\el_ga\Desktop\SCHAD\clientes\obj\Debug\Vistas\FrmCliente.baml
+C:\Users\el_ga\Desktop\SCHAD\clientes\obj\Debug\Vistas\Factura.g.cs
+C:\Users\el_ga\Desktop\SCHAD\clientes\obj\Debug\Vistas\FrmFactura.g.cs
+C:\Users\el_ga\Desktop\SCHAD\clientes\obj\Debug\Vistas\Factura.baml
+C:\Users\el_ga\Desktop\SCHAD\clientes\obj\Debug\Vistas\FrmFactura.baml

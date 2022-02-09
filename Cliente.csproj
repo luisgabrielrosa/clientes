@@ -56,12 +56,24 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Controladores\ClienteController.cs" />
+    <Compile Include="Controladores\FacturaController.cs" />
     <Compile Include="Database\Conexion.cs" />
     <Compile Include="Helpers\Response.cs" />
     <Compile Include="Helpers\Utilities.cs" />
     <Compile Include="Modelos\Cliente.cs" />
+    <Compile Include="Modelos\DetalleFactura.cs" />
+    <Compile Include="Modelos\Factura.cs" />
     <Compile Include="Vistas\Cliente.xaml.cs">
       <DependentUpon>Cliente.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Factura.xaml.cs">
+      <DependentUpon>Factura.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\FrmCliente.xaml.cs">
+      <DependentUpon>FrmCliente.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\FrmFactura.xaml.cs">
+      <DependentUpon>FrmFactura.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -78,6 +90,18 @@
     <Page Include="Vistas\Cliente.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Vistas\Factura.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Vistas\FrmCliente.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Vistas\FrmFactura.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <ItemGroup>

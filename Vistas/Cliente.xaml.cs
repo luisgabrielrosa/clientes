@@ -24,50 +24,26 @@ namespace Cliente.Vistas
         {
             InitializeComponent();
             new Controladores.ClienteController().GetAllRegistros();
-            //if (response.TIPO == Response.TYPE.SUCCESS)
-            //{
-            //    dgClientes.DataContext = response.RESPONSE;
-            //}
-            //else
-            //{
-            //    MessageBox.Show(response.MENSAJE);
-            //}
-        }
-
-
-        public static void SelectRowByIndex(DataGrid dataGrid, int rowIndex)
-        {
-            DataGridRow row = dataGrid.ItemContainerGenerator.ContainerFromIndex(rowIndex) as DataGridRow;
-            if (row != null)
-            {
-                //DataGridCell cell = GetCell(dataGrid, row, 0);
-                //if (cell != null)
-                //    cell.Focus();
-            }
-        }
-
-        private void btnSeleccionar_Click(object sender, RoutedEventArgs e)
-        {
-
+          
         }
 
         private void btnEditarElemento_Click(object sender, RoutedEventArgs e)
         {
             int id = int.Parse(((Button)sender).CommandParameter.ToString());
-            //new Controller.ClienteController().SearchById(id);
+            new Controladores.ClienteController().SearchById(id);
 
         }
 
         private void btnDeleteElement_Click(object sender, RoutedEventArgs e)
         {
             int id = int.Parse(((Button)sender).CommandParameter.ToString());
-       //     new Controller.ClienteController().DeleteElement(id);
+            new Controladores.ClienteController().DeleteElement(id);
 
         }
 
         private void btnAgregar_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-
+            new FrmCliente().Show();
         }
     }
 }

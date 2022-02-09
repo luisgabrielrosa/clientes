@@ -28,7 +28,7 @@
 
 
 
-        <DataGrid x:FieldModifier="public" Name="gvRegistros" AutoGenerateColumns="False" CellStyle="{StaticResource Body_Content_DataGrid_Centering}"  Margin="21,170,12,46" AlternationCount="2" BorderBrush="{x:Null}" Foreground="#FF333333" AlternatingRowBackground="White" RowBackground="#14000000" HorizontalGridLinesBrush="#FFDDDDDD" VerticalGridLinesBrush="#FFDDDDDD" RowHeight="30" ColumnHeaderHeight="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Right">
+        <DataGrid x:FieldModifier="public" Name="gvRegistros" CanUserAddRows="False" CanUserDeleteRows="False" AutoGenerateColumns="False" CellStyle="{StaticResource Body_Content_DataGrid_Centering}"  Margin="21,170,12,46" AlternationCount="2" BorderBrush="{x:Null}" Foreground="#FF333333" AlternatingRowBackground="White" RowBackground="#14000000" HorizontalGridLinesBrush="#FFDDDDDD" VerticalGridLinesBrush="#FFDDDDDD" RowHeight="30" ColumnHeaderHeight="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Right">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Código" Binding="{Binding Id}"/>
                 <DataGridTextColumn Header="Nombre" Binding="{Binding CustName}"/>
