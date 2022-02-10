@@ -19,6 +19,9 @@ namespace Cliente.Vistas
             cliente.AddOrUpdate();
         }
 
-  
+        private void Canvas_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

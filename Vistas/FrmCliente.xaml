@@ -31,9 +31,8 @@
             <ComboBoxItem Content="Socio" Tag="3" ></ComboBoxItem>
             <ComboBoxItem Content="VIP" Tag="4" ></ComboBoxItem>
         </ComboBox>
-        <Canvas Margin="60,377,0,0" Background="#FFC23616" Height="40" VerticalAlignment="Top" Grid.RowSpan="2" HorizontalAlignment="Left" Width="155">
+        <Canvas Margin="60,377,0,0" Background="#FFC23616" Height="40" VerticalAlignment="Top" Grid.RowSpan="2" HorizontalAlignment="Left" Width="155" MouseLeftButtonDown="Canvas_MouseLeftButtonDown">
             <Label Content="Cancelar" Canvas.Left="40" Canvas.Top="8" Foreground="White" FontSize="14" FontWeight="Bold" FontFamily="Arial"/>
-
         </Canvas>
 
         <Canvas Name="btnGuardar" Margin="0,377,70,0" Background="#FF192A56" Height="40" VerticalAlignment="Top" HorizontalAlignment="Right" Width="145" Grid.RowSpan="2" MouseLeftButtonUp="btnGuardar_MouseLeftButtonUp">

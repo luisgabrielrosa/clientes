@@ -29,5 +29,10 @@ namespace Cliente.Vistas
             //Controladores.FacturaController factura = new Controladores.FacturaController();
             //factura.AddOrUpdate();
         }
+
+        private void Canvas_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            this.Close();  
+        }
     }
 }

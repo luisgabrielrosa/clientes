@@ -45,5 +45,10 @@ namespace Cliente.Vistas
         {
             new FrmCliente().Show();
         }
+
+        private void btnFacturas_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            new Factura().Show();
+        }
     }
 }

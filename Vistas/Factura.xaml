@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Cliente.Vistas"
         mc:Ignorable="d"
-        Title="Cliente" Height="700" Width="1150">
+        Title="Facturas" Height="400" Width="500">
     <Window.Resources>
         <Style x:Key="Body_Content_DataGrid_Centering"
         TargetType="{x:Type DataGridCell}">
@@ -22,9 +22,10 @@
         </Style>
     </Window.Resources>
     <Grid Background="#f5f6fa">
+        <Label Content="Listado de Facturas" HorizontalAlignment="Center" Margin="0,25,0,0" VerticalAlignment="Top" Foreground="#FF192A56" FontSize="24" FontWeight="Bold" Width="238"/>
 
 
-        <DataGrid x:FieldModifier="public" Name="gvRegistros" CanUserAddRows="False" CanUserDeleteRows="False"  AutoGenerateColumns="False" CellStyle="{StaticResource Body_Content_DataGrid_Centering}"  Margin="21,170,12,46" AlternationCount="2" BorderBrush="{x:Null}" Foreground="#FF333333" AlternatingRowBackground="White" RowBackground="#14000000" HorizontalGridLinesBrush="#FFDDDDDD" VerticalGridLinesBrush="#FFDDDDDD" RowHeight="30" ColumnHeaderHeight="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Right">
+        <DataGrid x:FieldModifier="public" Name="gvRegistros" CanUserAddRows="False" CanUserDeleteRows="False"  AutoGenerateColumns="False" CellStyle="{StaticResource Body_Content_DataGrid_Centering}"  Margin="16,86,16,130" AlternationCount="2" BorderBrush="{x:Null}" Foreground="#FF333333" AlternatingRowBackground="White" RowBackground="#14000000" HorizontalGridLinesBrush="#FFDDDDDD" VerticalGridLinesBrush="#FFDDDDDD" RowHeight="30" ColumnHeaderHeight="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Right">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Código" Binding="{Binding Id}"/>
                 <DataGridTextColumn Header="Cliente" Binding="{Binding CustName}"/>
@@ -40,8 +41,8 @@
                             </Button>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
-                </DataGridTemplateColumn>                
+                </DataGridTemplateColumn>
             </DataGrid.Columns>
-        </DataGrid>       
+        </DataGrid>
     </Grid>
 </Window>

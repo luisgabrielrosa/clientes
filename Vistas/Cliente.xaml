@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Cliente.Vistas"
         mc:Ignorable="d"
-        Title="Cliente" Height="700" Width="1150">
+        Title="Cliente" Height="400" Width="500">
     <Window.Resources>
         <Style x:Key="Body_Content_DataGrid_Centering"
         TargetType="{x:Type DataGridCell}">
@@ -22,13 +22,15 @@
         </Style>
     </Window.Resources>
     <Grid Background="#f5f6fa">
-        <Canvas x:Name="btnAgregar" Height="38" Width="163" Margin="23,37,956,595" Background="#FF192A56" MouseLeftButtonUp="btnAgregar_MouseLeftButtonUp">
-            <Label Content="Nuevo Registro" Canvas.Left="42" Canvas.Top="8" Foreground="White" FontSize="14" FontWeight="Bold" FontFamily="Arial"/>
+        <Canvas x:Name="btnAgregar" Height="38" Margin="23,44,327,302" Background="#FF192A56" MouseLeftButtonUp="btnAgregar_MouseLeftButtonUp">
+            <Label Content="Nuevo Registro" Canvas.Left="18" Canvas.Top="6" Foreground="White" FontSize="14" FontWeight="Bold" FontFamily="Arial"/>
+        </Canvas>
+        <Canvas x:Name="btnFacturas" Height="38" Margin="197,44,171,302" Background="#FF1EA6E0" MouseLeftButtonUp="btnFacturas_MouseLeftButtonUp">
+            <Label Content="Ver facturas" Canvas.Left="21" Canvas.Top="6" Foreground="White" FontSize="14" FontWeight="Bold" FontFamily="Arial"/>
         </Canvas>
 
 
-
-        <DataGrid x:FieldModifier="public" Name="gvRegistros" CanUserAddRows="False" CanUserDeleteRows="False" AutoGenerateColumns="False" CellStyle="{StaticResource Body_Content_DataGrid_Centering}"  Margin="21,170,12,46" AlternationCount="2" BorderBrush="{x:Null}" Foreground="#FF333333" AlternatingRowBackground="White" RowBackground="#14000000" HorizontalGridLinesBrush="#FFDDDDDD" VerticalGridLinesBrush="#FFDDDDDD" RowHeight="30" ColumnHeaderHeight="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Right">
+        <DataGrid x:FieldModifier="public" Name="gvRegistros" CanUserAddRows="False" CanUserDeleteRows="False" AutoGenerateColumns="False" CellStyle="{StaticResource Body_Content_DataGrid_Centering}"  Margin="21,118,12,98" AlternationCount="2" BorderBrush="{x:Null}" Foreground="#FF333333" AlternatingRowBackground="White" RowBackground="#14000000" HorizontalGridLinesBrush="#FFDDDDDD" VerticalGridLinesBrush="#FFDDDDDD" RowHeight="30" ColumnHeaderHeight="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Right">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Código" Binding="{Binding Id}"/>
                 <DataGridTextColumn Header="Nombre" Binding="{Binding CustName}"/>
@@ -56,6 +58,6 @@
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
             </DataGrid.Columns>
-        </DataGrid>       
+        </DataGrid>
     </Grid>
 </Window>
